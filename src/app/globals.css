@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* PortLink Design Tokens */
+@theme inline {
+  /* Colors */
+  --color-navy: #1A3556;
+  --color-bay-blue: #2563EB;
+  --color-gulf-gold: #B7862B;
+  --color-crimson: #DC2626;
+  --color-dark-amber: #92400E;
+  --color-amber: #D97706;
+  --color-forest: #059669;
+  --color-ocean: #0284C7;
+  --color-slate: #64748B;
+  --color-slate-text: #475569;
+  --color-sand: #EDD690;
+  --color-off-white: #F8FAFC;
+
+  /* Background / Foreground */
+  --color-background: #F8FAFC;
+  --color-foreground: #0F172A;
+
+  /* Font */
+  --font-sans: var(--font-inter);
+
+  /* Base font size */
+  --text-base: 1rem; /* 16px minimum */
+}
+
+/* CSS Custom Properties for use outside Tailwind */
+:root {
+  --navy: #1A3556;
+  --bay-blue: #2563EB;
+  --gulf-gold: #B7862B;
+  --crimson: #DC2626;
+  --amber: #D97706;
+  --forest: #059669;
+  --ocean: #0284C7;
+  --slate: #64748B;
+  --off-white: #F8FAFC;
+
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

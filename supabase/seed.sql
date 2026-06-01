@@ -1,0 +1,12 @@
+-- PortLink local seed data
+-- ------------------------------------------------------------------
+-- This file is loaded by `supabase db reset` (see supabase/config.toml → [db.seed]).
+--
+-- The ministry's 8 loaner Wi-Fi devices are seeded via a migration
+-- (supabase/migrations/*_seed_devices.sql) so they are part of the
+-- versioned schema history. There is no sample vessel data: vessels
+-- appear once you ingest a Pilot Report (see docs/ for the parser and
+-- the sample emails in docs/data_samples/).
+--
+-- Add local-only sample rows below if you want a pre-populated dashboard
+-- while developing. Anything here runs only on a local `db reset`.

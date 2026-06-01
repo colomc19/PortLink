@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+
+# Secrets
+*.pem
+*.key
+
+# Local AI-assistant / maintainer workflow files (kept on disk, not published)
+CLAUDE.md
+AGENTS.md
+memory-bank/
+.claude/
+.mcp.json
+
+# Supabase local-stack runtime state (not part of the project source)
+supabase/.branches/
+supabase/.temp/
+
+# Maintainer-only project-management tables (pm_bugs/pm_backlog/pm_decisions).
+# Kept on disk so the maintainer's local `supabase db reset` recreates them,
+# but not published — internal tracking, not part of the PortLink product schema.
+supabase/migrations/00001_pm_tables.sql
+
+# Build / tooling artifacts
+*.tsbuildinfo
+firebase-debug.log
+*.log

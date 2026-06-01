@@ -1,0 +1,9 @@
+title = "Gitleaks Config"
+
+[allowlist]
+  paths = [
+    '''node_modules''',
+    '''\.env\.example''',
+    '''package-lock\.json''',
+    '''memory-bank/.*\.json'''
+  ]
