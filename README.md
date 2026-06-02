@@ -42,6 +42,23 @@ departing ship again.
 - 🔁 **Realtime updates** — the dashboard reflects changes live across all signed-in users
 - 🔐 **Roles** — Admin (full control) and Volunteer (view + check devices in/out)
 
+## Screenshots 
+### Dashboard
+![Vessel Dashboard](docs/screenshots/Dashboard1.png)
+![Vessel Dashboard](docs/screenshots/Dashboard2.png)
+
+
+### Device Tracking
+![Device Tracking](docs/screenshots/Devices.png)
+
+
+### Assign Vessel
+![Device Tracking](docs/screenshots/AssignVessel1.png)
+
+
+### Alerts
+![Alerts](docs/screenshots/Alerts.png)
+
 ---
 
 ## Tech stack
